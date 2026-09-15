@@ -1,8 +1,10 @@
-target/
-dist/
-runtime/
-logs/
-data/
+# 注意：这些一律锚定到根目录。写成 data/ 会匹配任意层级的 data 目录，
+# 把 src/main/java/tanktrouble/model/data/ 一起吃掉，别人克隆下来编译不过。
+/target/
+/dist/
+/runtime/
+/logs/
+/data/
 *.log
 
 # IDE project files
