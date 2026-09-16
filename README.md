@@ -141,3 +141,17 @@ Model 不导入 JavaFX。View 只读快照并发送命令，Controller 不结算
 当前界面采用校园卡通主题：首页为等距校园插画、描边标题和立体菜单；准备、设置、排行榜、补给及战斗页面统一草绿与红砖配色。首页保留后续开场动画的接入位置，目前点击开始直接进入准备页。
 
 详细设计差异与验证范围见 `DEVELOPMENT.md`。当前版提供程序绘制的校园、坦克、战场、地形、脉冲效果，以及程序合成的音效与音乐。音频音色尚未经过人工试听调整，长期数值平衡也仍需要真实试玩反馈。
+
+---
+
+## 贡献者
+
+中南大学小组作品，由以下成员共同完成：
+
+- [@THE239988](https://github.com/THE239988)
+- [@CTDLX](https://github.com/CTDLX)
+- [@Justin-luck772](https://github.com/Justin-luck772)
+- [@Zhangyuhan123456](https://github.com/Zhangyuhan123456)
+- [@xyc2008](https://github.com/xyc2008)
+
+许可证见 `LICENSE`（MIT，适用于源代码）；第三方依赖与素材来源见 `THIRD_PARTY.md`。
