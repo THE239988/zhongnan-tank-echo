@@ -1,0 +1,21 @@
+[Unit]
+Description=Tank Trouble 3.0.2 authoritative server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/tank-trouble/current
+EnvironmentFile=/etc/tank-trouble.env
+ExecStart=/opt/tank-trouble/current/start-server.sh
+Restart=always
+RestartSec=3
+User=root
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/tank-trouble
+
+[Install]
+WantedBy=multi-user.target

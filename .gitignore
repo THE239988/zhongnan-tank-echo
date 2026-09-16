@@ -1,0 +1,18 @@
+target/
+dist/
+runtime/
+logs/
+data/
+*.log
+
+# IDE project files
+.idea/
+
+# Build products belong in GitHub Releases, not in git history: a 58 MB jar committed once
+# stays in the history forever and every clone pays for it. The deploy scripts and docs in
+# this folder are tracked; only the jars are not.
+deploy/server/*.jar
+deploy/server/lib/*.jar
+
+# Defence preparation notes - kept locally, not published
+docs/答辩可能问题.md
