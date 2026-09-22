@@ -1,3 +1,5 @@
+![中南坦克 · 回响计划](assets/brand/banner-1280.png)
+
 # 中南坦克 · 回响计划 3.0
 
 基于提供的《试做1.0》继续开发的 **Java 17 + JavaFX 17 桌面游戏**。单人突围、本地双人对决、无尽回响、局域网多人混战和合作 Boss 均已接入可玩流程。本项目不使用网页技术替代 JavaFX。
@@ -64,6 +66,12 @@ java -cp target/audio-gen tanktrouble.audio.AudioAssets
 角色语音由 `VoiceLines` 从 classpath 读取（`/art/voice/`），因此必须保留在 `src/main/resources` 下；立绘则优先读磁盘的 `assets/art`，找不到才回退到 jar 内。
 
 第三方库与 JDK 的许可证见 `THIRD_PARTY.md`。
+
+## 标识
+
+![中南坦克](assets/brand/avatar-128.png)
+
+仓库头像与 README 横幅的源文件在 `assets/brand/`，纯 SVG 矢量，无位图依赖。配色直接取自机甲美术（`mecha-*.png`）：墨黑 `#1A1D1F`、冷白 `#F2F5F6`、青 `#4DD0E1`、黄 `#FDD835`、红 `#FF6B5B`（天线帽）。改配色时请与机甲美术一起改，细节见 `assets/brand/README.md`。
 
 ## 3.0 综合整合
 

@@ -18,3 +18,6 @@ deploy/server/lib/*.jar
 
 # Defence preparation notes - kept locally, not published
 docs/答辩可能问题.md
+
+# 视觉头脑风暴临时目录
+.superpowers/

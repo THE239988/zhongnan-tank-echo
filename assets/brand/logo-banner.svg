@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" width="1280" height="320" role="img" aria-label="中南坦克 · 回响计划">
+  <title>中南坦克 · 回响计划 — README 横幅</title>
+  <defs>
+    <style>
+      .title { font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif; font-weight: 700; }
+      .sub   { font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif; font-weight: 400; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="320" fill="#F7FAFB"/>
+  <rect x="0" y="0" width="10" height="320" fill="#4DD0E1"/>
+
+  <!-- 标记 -->
+  <g transform="translate(98,48) scale(1.12)">
+    <circle cx="100" cy="100" r="100" fill="#EAF4F7"/>
+    <g transform="translate(100,100) scale(0.74) translate(-104,-96)">
+      <rect x="18" y="124" width="164" height="46" rx="23" fill="#1A1D1F"/>
+      <g fill="#4DD0E1">
+        <rect x="38" y="137" width="18" height="20"/>
+        <rect x="64" y="137" width="18" height="20"/>
+        <rect x="90" y="137" width="18" height="20"/>
+        <rect x="116" y="137" width="18" height="20"/>
+        <rect x="142" y="137" width="18" height="20"/>
+      </g>
+      <path d="M36 124 L44 94 L156 94 L164 124 Z" fill="#F2F5F6" stroke="#1A1D1F" stroke-width="12" stroke-linejoin="round"/>
+      <rect x="84" y="34" width="9" height="30" rx="4" fill="#1A1D1F"/>
+      <circle cx="88" cy="32" r="10" fill="#FF6B5B"/>
+      <path d="M72 94 L80 60 L126 60 L134 94 Z" fill="#F2F5F6" stroke="#1A1D1F" stroke-width="12" stroke-linejoin="round"/>
+      <rect x="124" y="68" width="66" height="19" rx="9" fill="#1A1D1F"/>
+      <rect x="46" y="102" width="34" height="13" rx="6" fill="#FDD835"/>
+      <rect x="86" y="102" width="30" height="13" rx="6" fill="#4DD0E1"/>
+    </g>
+  </g>
+
+  <!-- 文字 -->
+  <text class="title" x="382" y="160" font-size="98" fill="#12232B" letter-spacing="4">中南坦克</text>
+  <rect x="386" y="188" width="88" height="7" rx="3.5" fill="#FDD835"/>
+  <text class="sub" x="386" y="238" font-size="30" fill="#5A7A85" letter-spacing="1">回响计划 · 多人在线坦克对战</text>
+</svg>

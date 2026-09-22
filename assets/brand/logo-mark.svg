@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="中南坦克">
+  <title>中南坦克 — 主标记</title>
+  <!-- 履带 -->
+  <rect x="18" y="124" width="164" height="46" rx="23" fill="#1A1D1F"/>
+  <!-- 履带板（方齿） -->
+  <g fill="#4DD0E1">
+    <rect x="38" y="137" width="18" height="20"/>
+    <rect x="64" y="137" width="18" height="20"/>
+    <rect x="90" y="137" width="18" height="20"/>
+    <rect x="116" y="137" width="18" height="20"/>
+    <rect x="142" y="137" width="18" height="20"/>
+  </g>
+  <!-- 车体 -->
+  <path d="M36 124 L44 94 L156 94 L164 124 Z" fill="#F2F5F6" stroke="#1A1D1F" stroke-width="12" stroke-linejoin="round"/>
+  <!-- 天线杆 -->
+  <rect x="84" y="34" width="9" height="30" rx="4" fill="#1A1D1F"/>
+  <!-- 天线红帽 -->
+  <circle cx="88" cy="32" r="10" fill="#FF6B5B"/>
+  <!-- 炮塔 -->
+  <path d="M72 94 L80 60 L126 60 L134 94 Z" fill="#F2F5F6" stroke="#1A1D1F" stroke-width="12" stroke-linejoin="round"/>
+  <!-- 炮管 -->
+  <rect x="124" y="68" width="66" height="19" rx="9" fill="#1A1D1F"/>
+  <!-- 车身高亮条 -->
+  <rect x="46" y="102" width="34" height="13" rx="6" fill="#FDD835"/>
+  <rect x="86" y="102" width="30" height="13" rx="6" fill="#4DD0E1"/>
+</svg>
