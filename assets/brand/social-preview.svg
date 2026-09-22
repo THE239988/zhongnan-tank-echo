@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-label="中南坦克 · 回响计划">
+  <title>中南坦克 · 回响计划 — 仓库社交预览卡</title>
+  <defs>
+    <style>
+      .t { font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif; font-weight: 700; }
+      .s { font-family: "Noto Sans SC", "Microsoft YaHei", sans-serif; font-weight: 400; }
+    </style>
+  </defs>
+
+  <rect width="1280" height="640" fill="#F7FAFB"/>
+  <rect x="0" y="0" width="12" height="640" fill="#4DD0E1"/>
+
+  <!-- 标记 -->
+  <g transform="translate(522,72) scale(1.18)">
+    <circle cx="100" cy="100" r="100" fill="#EAF4F7"/>
+    <g transform="translate(100,100) scale(0.84) translate(-104,-96)">
+      <rect x="18" y="124" width="164" height="46" rx="23" fill="#1A1D1F"/>
+      <g fill="#4DD0E1">
+        <rect x="38" y="137" width="18" height="20"/>
+        <rect x="64" y="137" width="18" height="20"/>
+        <rect x="90" y="137" width="18" height="20"/>
+        <rect x="116" y="137" width="18" height="20"/>
+        <rect x="142" y="137" width="18" height="20"/>
+      </g>
+      <path d="M36 124 L44 94 L156 94 L164 124 Z" fill="#F2F5F6" stroke="#1A1D1F" stroke-width="12" stroke-linejoin="round"/>
+      <rect x="84" y="34" width="9" height="30" rx="4" fill="#1A1D1F"/>
+      <circle cx="88" cy="32" r="10" fill="#FF6B5B"/>
+      <path d="M72 94 L80 60 L126 60 L134 94 Z" fill="#F2F5F6" stroke="#1A1D1F" stroke-width="12" stroke-linejoin="round"/>
+      <rect x="124" y="68" width="66" height="19" rx="9" fill="#1A1D1F"/>
+      <rect x="46" y="102" width="34" height="13" rx="6" fill="#FDD835"/>
+      <rect x="86" y="102" width="30" height="13" rx="6" fill="#4DD0E1"/>
+    </g>
+  </g>
+
+  <!-- 文字 -->
+  <text class="t" x="640" y="420" font-size="88" fill="#12232B" letter-spacing="6" text-anchor="middle">中南坦克</text>
+  <rect x="595" y="452" width="90" height="7" rx="3.5" fill="#FDD835"/>
+  <text class="s" x="640" y="512" font-size="30" fill="#5A7A85" letter-spacing="2" text-anchor="middle">回响计划 · 多人在线坦克对战</text>
+</svg>
